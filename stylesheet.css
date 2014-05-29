@@ -1,35 +1,54 @@
-/*
-#portrait {
-	height: 100px;
-	width: 100px;
+#container {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
-*/
+
 h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	text-align: center;
 }
 
 
 #portrait img {
-/* 	zoom: 175%; */
 	height: 175px;
 	width: 200px;
 	padding: 5px 10px;
 	border: 2px;
 	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #resume {
-	background-color: blue;
+	background-color: #acacac;
 	border: black solid 2px;
+	height: 50px;
+	width: 80%;
+	margin-bottom: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #projects {
-	background-color: green;
+	background-color: #acacac;
 	border: black solid 2px;
+	height: 50px;
+	width: 80%;
+	margin-bottom: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #contact {
-	background-color: red;
+	background-color: #acacac;
 	border: black solid 2px;
+	height: 50px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
