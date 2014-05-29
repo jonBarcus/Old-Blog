@@ -1,3 +1,9 @@
+#portrait {
+	padding: 5px 10px;
+	border: 2px dashed black;
+	border-radius: 50%;
+}
+
 #resume {
 	background-color: blue;
 	border: black solid 2px;
