@@ -1,6 +1,17 @@
+/*
 #portrait {
+	height: 100px;
+	width: 100px;
+}
+*/
+
+
+#portrait img {
+/* 	zoom: 175%; */
+	height: 175px;
+	width: 175px;
 	padding: 5px 10px;
-	border: 2px dashed black;
+	border: 2px;
 	border-radius: 50%;
 }
 
