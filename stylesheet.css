@@ -20,10 +20,28 @@ h1 {
 	margin-right: auto;
 }
 
+.menu {
+	background-color: #acacac;
+	border: black solid 2px;
+	height: 75px;
+	width: 80%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.menu h3 {
+	text-align: center;
+}
+
+/*
 #resume {
 	background-color: #acacac;
 	border: black solid 2px;
-	height: 50px;
+	height: 75px;
 	width: 80%;
 	margin-bottom: 5px;
 	display: block;
@@ -34,7 +52,7 @@ h1 {
 #projects {
 	background-color: #acacac;
 	border: black solid 2px;
-	height: 50px;
+	height: 75px;
 	width: 80%;
 	margin-bottom: 5px;
 	display: block;
@@ -45,10 +63,11 @@ h1 {
 #contact {
 	background-color: #acacac;
 	border: black solid 2px;
-	height: 50px;
+	height: 75px;
 	width: 80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+*/
