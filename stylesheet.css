@@ -37,10 +37,28 @@ h1 {
 	text-align: center;
 }
 
+.menu-expanded {
+	background-color: #acacac;
+	border: black solid 2px;
+	height: 500px;
+	width: 80%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 #construction {
 	text-align: center;
 	background: white;
 }
+
+#resume-pdf {
+	
+}
+
 
 /*
 #resume {
