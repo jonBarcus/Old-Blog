@@ -4,6 +4,7 @@ var myPortfolio = {
 		myPortfolio.hideResume();
 		$("#resume").click(myPortfolio.showResume);
 		$("#projects").click(myPortfolio.showProjects);
+		$("#contact").click(myPortfolio.showContact);
 	},
 	
 	hideResume: function(){
@@ -17,7 +18,11 @@ var myPortfolio = {
 	
 	showProjects: function(){
 		$("#projects").toggleClass("menu-expanded");
-	}	
+	},
+	
+	showContact: function(){
+		$("#contact").toggleClass("menu-expanded");
+	}
 	
 	
 }
