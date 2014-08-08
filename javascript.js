@@ -6,6 +6,7 @@ var myPortfolio = {
 		$("#resume").click(myPortfolio.showResume);
 		$("#projects").click(myPortfolio.showProjects);
 		$("#contact").click(myPortfolio.showContact);
+		$("#contact").click(myPortfolio.showContactLinks);
 	},
 
 	hideResume: function(){
@@ -27,6 +28,17 @@ var myPortfolio = {
 
 	showContact: function(){
 		$("#contact").toggleClass("menu-expanded");
+	},
+
+	showContactLinks: function(){
+		$(".sub-menu").toggle();
+	},
+
+	goToOtherSite: function(){
+		$("#linkedin").click(function(){
+			window.open('linkedin.com/in/jonathanbarcus');
+		});
+
 	}
 
 
