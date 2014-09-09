@@ -3,10 +3,10 @@ var myPortfolio = {
 	onReady: function(){
 		myPortfolio.hideResume();
 		myPortfolio.hideContactLinks();
-		$("#resume").click(myPortfolio.showResume);
-		$("#projects").click(myPortfolio.showProjects);
-		$("#contact").click(myPortfolio.showContact);
-		$("#contact").click(myPortfolio.showContactLinks);
+		$("#resume").hover(myPortfolio.showResume);
+		$("#projects").hover(myPortfolio.showProjects);
+		$("#contact").hover(myPortfolio.showContact);
+		// $("#contact").hover(myPortfolio.showContactLinks);
 	},
 
 	hideResume: function(){
@@ -28,6 +28,7 @@ var myPortfolio = {
 
 	showContact: function(){
 		$("#contact").toggleClass("menu-expanded");
+		myPortfolio.showContactLinks();
 	},
 
 	showContactLinks: function(){
